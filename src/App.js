@@ -10,6 +10,7 @@ console.log(ClassRoom);
 
 /* eslint-disable no-unused-vars, no-console */
 // function App(props) {
+
 const product = {
   name: "ajax",
   description: "Cleans your bathroom real good"
@@ -25,7 +26,6 @@ const App = () => {
         Unrelated Tip: The linter appears to like double quotes here. If you get
         an error with a string.. check to see if you used single or double quotes 
        */}
-
 
       {/* pass SuperComponent the string: "hello word" in a prop called "message"*/}
       <SuperComponent message="hello world" />
@@ -45,7 +45,7 @@ const App = () => {
       */}
 
       {/* pass the Students component an array of names in a prop called "names" */}
-      
+
       {/* 
         Go into the Students component and take a look at is. What's it doing?
         Try using the Students component again without the names prop. What happens? 
@@ -67,7 +67,6 @@ const App = () => {
       {/* pass the ClassRoom component the string "Class Number 1" in a prop called className */}
 
       {/* render the Students component inside the ClassRoom component; pass Students as a child */}
-
     </div>
   );
 };
