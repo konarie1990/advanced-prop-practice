@@ -7,10 +7,11 @@ const StyledDiv = styled.div`
   border: 2px dashed gray;
 `;
 
-const ClassRoom = (props) => {
+const ClassRoom = props => {
   return (
     <StyledDiv>
       <h3>{`Welcome to class: ${props.className}`}</h3>
+      {props.children}
     </StyledDiv>
   );
 };
